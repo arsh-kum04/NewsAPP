@@ -33,6 +33,11 @@ This project is a news application that fetches articles from a NEWSAPI.ORG API'
 ### 7. **Navigation Component**
    - ![Navigation](https://img.shields.io/badge/Navigation-5A9?logo=android&logoColor=white&style=flat-square)
    - **Purpose:** Handles in-app navigation, allowing users to move between different screens seamlessly.
+     
+### 8. **Coil**
+   - ![Coil](https://img.shields.io/badge/Coil-FFD700?logo=android&logoColor=white&style=flat-square)
+   - **Purpose:** Image loading library used to load and display images from URLs in the app efficiently.
+
 
 ## Features
 
