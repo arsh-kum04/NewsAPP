@@ -57,7 +57,7 @@ This project is a news application that fetches articles from a NEWSAPI.ORG API'
 ## Setup and Installation
 
 1. **Clone the repository:**
-   git clone https://github.com/your-username/news-app.git
+   git clone https://github.com/arsh-kum04/NewsAPP.git
    
 2. **Open the project in Android Studio.**
 3. **Build the project:**
