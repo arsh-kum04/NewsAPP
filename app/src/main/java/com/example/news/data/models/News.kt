@@ -1,6 +1,6 @@
-package com.example.news.models
+package com.example.news.data.models
 
-data class News(
+data class NewsResponse(
     val articles: List<Article>,
     val status: String,
     val totalResults: Int

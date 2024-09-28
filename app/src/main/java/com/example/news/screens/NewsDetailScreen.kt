@@ -15,10 +15,9 @@ import androidx.compose.ui.text.style.TextAlign
 
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import coil.compose.AsyncImage
-import coil.request.ImageRequest
+
 import com.example.news.R
-import com.example.news.models.Article
+import com.example.news.data.models.Article
 
 
 @Composable
