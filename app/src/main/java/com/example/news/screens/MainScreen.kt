@@ -20,7 +20,7 @@ import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.news.LoadingScreen
-import com.example.news.models.Article
+import com.example.news.data.models.Article
 import com.example.news.viewmodels.NewsViewModel
 
 @Composable

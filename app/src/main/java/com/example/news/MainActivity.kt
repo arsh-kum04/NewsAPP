@@ -51,12 +51,7 @@ fun NewsApp(newsViewModel: NewsViewModel) {
             MainScreen(navController = navController, newsViewModel = newsViewModel)
         }
         composable("NewsDetailScreen/{title}") { backStackEntry ->
-            val title = backStackEntry.arguments?.getString("title")
-            val articles = newsViewModel.news.collectAsState().value?.articles ?: emptyList()
-            val article = articles.find { it.title == title }
-            article?.let {
-                NewsDetailScreen(article = it)
-            }
+
         }
     }
 }

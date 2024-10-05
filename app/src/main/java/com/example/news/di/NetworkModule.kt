@@ -1,11 +1,8 @@
 package com.example.news.di
 
 import android.content.Context
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.room.Room
-import com.example.news.api.NewsAPI
-import com.example.news.repository.NewsRepository
+import com.example.news.data.api.NewsAPI
 import com.example.news.roomdb.NewsDAO
 import com.example.news.roomdb.NewsDatabase
 import dagger.Module
@@ -30,7 +27,7 @@ class NetworkModule{
     }
     @Provides
     @Singleton
-    fun providesNewsAPI(retrofit: Retrofit):NewsAPI{
+    fun providesNewsAPI(retrofit: Retrofit): NewsAPI {
         return retrofit.create(NewsAPI::class.java)
     }
     @Provides
@@ -50,6 +47,6 @@ class NetworkModule{
 
 
     companion object{
-        val BASE_URL="https://newsapi.org/v2/"
+        const val BASE_URL="https://newsapi.org/v2/"
     }
 }
